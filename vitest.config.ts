@@ -25,7 +25,7 @@ export default defineConfig({
     //File executed before each **test file**
     setupFiles: ['vitest.setup.ts'],
 
-    // Executed once (setup) and after (tearDown) of the whole test suite
+    // Executed once (setup) and after (tearDown) of the test suite
     globalSetup: ['vitest.global.setup.ts'],
 
     // Defines which files will be considered to test (unit & integration)
