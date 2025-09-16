@@ -34,8 +34,3 @@ export const drizzleDatabase = {
 };
 
 export type DrizzleDatabase = ReturnType<typeof makeDrizzle>;
-
-(async () => {
-  const db = globalThis.__DB__;
-  console.log(await db.query.todo.findMany());
-})();
