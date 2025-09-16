@@ -60,7 +60,7 @@ describe('DrizzleTodoRepository (integration)', () => {
 
       expect(result).toStrictEqual({
         success: false,
-        errors: ['There is already a TODO with this ID or description'],
+        errors: ['A TODO with this ID or description already exists'],
       });
     });
 
@@ -80,7 +80,7 @@ describe('DrizzleTodoRepository (integration)', () => {
 
       expect(result).toStrictEqual({
         success: false,
-        errors: ['There is already a TODO with this ID or description'],
+        errors: ['A TODO with this ID or description already exists'],
       });
     });
 

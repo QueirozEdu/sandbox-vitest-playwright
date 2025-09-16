@@ -33,7 +33,7 @@ export class DrizzleTodoRepository implements TodoRepository {
     if (!!existingTodo) {
       return {
         success: false,
-        errors: ['A TODO with this ID or description already exists)'],
+        errors: ['A TODO with this ID or description already exists'],
       };
     }
 
@@ -49,7 +49,7 @@ export class DrizzleTodoRepository implements TodoRepository {
     if (!existingTodo) {
       return {
         success: false,
-        errors: ['TODO does not exists)'],
+        errors: ['TODO does not exist'],
       };
     }
 
