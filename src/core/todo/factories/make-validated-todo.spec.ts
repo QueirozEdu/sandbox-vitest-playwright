@@ -41,6 +41,7 @@ describe('makeValidatedTodo (unit)', () => {
 
   test('should call return validatedDescription.error if validation failed', () => {
     const { errors, description, validaTodoDescriptionSpy } = makeMocks();
+
     validaTodoDescriptionSpy.mockReturnValue({ errors, success: false });
     const result = makeValidatedTodo(description) as InvalidTodo;
     expect(result).toStrictEqual({ errors, success: false });
