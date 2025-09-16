@@ -47,10 +47,10 @@ describe('DrizzleTodoRepository (integration)', () => {
     test('fails if there is an identical description in the table', async () => {
       const { repository, todos } = await makeTestTodoRepository();
 
-      // Cria um novo todo
+      // Creates a new todo
       await repository.create(todos[0]);
 
-      // Tenta criar um outro todo com a mesma descrição
+      // Tries to create another TODO with the same description
       const anotherTodo = {
         id: 'any id',
         description: todos[0].description,
