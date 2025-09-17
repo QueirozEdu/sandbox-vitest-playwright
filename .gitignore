@@ -43,5 +43,6 @@ next-env.d.ts
 
 
 # db
-**.db
+*.db
 .int.test.db.sqlite3
+dev.db.sqlite3
