@@ -14,9 +14,9 @@ export function Button({
   ...props
 }: ButtonProps) {
   const buttonVariants: Record<ButtonVariants, string> = {
-    default: clsx('bg-blue-600 hover:bg-blue-700 text-blue-100'),
-    ghost: clsx('bg-slate-300 hover:bg-slate-400 text-slate-950'),
-    danger: clsx('bg-red-600 hover:bg-red-700 text-red-100'),
+    default: 'bg-blue-600 hover:bg-blue-700 text-blue-100',
+    ghost: 'bg-slate-300 hover:bg-slate-400 text-slate-950',
+    danger: 'bg-red-600 hover:bg-red-700 text-red-100',
   };
 
   const buttonSizes: Record<ButtonSizes, string> = {

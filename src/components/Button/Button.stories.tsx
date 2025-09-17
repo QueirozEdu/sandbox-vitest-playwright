@@ -18,15 +18,15 @@ type Story = StoryObj<typeof Button>;
 
 export const Default: Story = {
   args: {
-    children: 'Olá mundo',
-    variant: 'default',
+    children: 'Hello World',
+    variant: 'ghost',
     size: 'lg',
   },
 };
 
 export const Danger: Story = {
   args: {
-    children: 'Olá mundo',
+    children: 'Hello World',
     variant: 'danger',
     size: 'lg',
   },
@@ -34,7 +34,7 @@ export const Danger: Story = {
 
 export const Ghost: Story = {
   args: {
-    children: 'Olá mundo',
+    children: 'Hello World',
     variant: 'ghost',
     size: 'lg',
   },

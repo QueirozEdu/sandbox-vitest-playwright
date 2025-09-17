@@ -9,7 +9,7 @@ const config: StorybookConfig = {
   framework: '@storybook/nextjs',
   staticDirs: ['../public'],
   features: {
-    backgroundsStoryGlobals: false,
+    backgrounds: false,
   },
 };
 export default config;
