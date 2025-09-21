@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'Testes com Vitest e Playwright',
+  title: 'Tests with Vitest and Playwright',
 };
 
 export default function Home() {
