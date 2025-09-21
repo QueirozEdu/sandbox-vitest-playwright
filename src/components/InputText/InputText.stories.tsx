@@ -54,18 +54,18 @@ export const Default: Story = {
     type: 'text',
     labelText: 'Input Label',
     errorMessage: '',
-    placeholder: 'Digite algo...',
+    placeholder: 'Enter something...',
     required: true,
     disabled: false,
     readOnly: false,
-    defaultValue: 'Este é o valor padrão do input',
+    defaultValue: 'This is the default input value',
   },
 };
 
 export const WithError: Story = {
   args: {
     ...Default.args,
-    errorMessage: 'Essa é a mensagem de erro',
+    errorMessage: 'This is the error message',
   },
 };
 
