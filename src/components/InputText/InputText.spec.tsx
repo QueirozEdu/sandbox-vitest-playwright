@@ -101,8 +101,8 @@ describe('<InputText />', () => {
     test('updates the value as the user is typing', async () => {
       const user = userEvent.setup();
       const el = input();
-      await user.type(el, 'texto');
-      expect(el).toHaveValue('texto');
+      await user.type(el, 'text');
+      expect(el).toHaveValue('text');
     });
   });
 
