@@ -1,7 +1,6 @@
 import { CreateTodoAction } from '@/core/todo/actions/todo.action.types';
 import { TodoForm } from '.';
-import type { Meta, StoryObj } from '@storybook/react';
-
+import type { Meta, StoryObj } from '@storybook/nextjs';
 import { fn } from 'storybook/test';
 
 const meta: Meta<typeof TodoForm> = {
