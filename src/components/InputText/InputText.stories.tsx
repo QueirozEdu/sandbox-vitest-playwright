@@ -1,5 +1,5 @@
 import { InputText } from '.';
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/nextjs';
 
 const meta: Meta<typeof InputText> = {
   title: 'Components/Forms/InputText',
